@@ -3,4 +3,5 @@ theme:
   name: material
 nav:
   - Accueil: index.md
-  - Client : clients.md
+  - Clients : clients.md
+  - Annexe : annexe.md

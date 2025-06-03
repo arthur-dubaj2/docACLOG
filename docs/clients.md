@@ -12,16 +12,16 @@ A l'ouverture, le menu clients affiche un tableau listant les différents client
 
 La page ainsi ouverte donne accès à une liste de fonctionnalités plus ou moins complexes :
 
-- [Nouveau](## Nouveau)
-- [Modifier](##Modifier)
-- [Imprimer](##imprimer)
-- [Bloc-Notes](##bloc-notes)
-- [Historique](##historique)
-- [Adresse de livraison](##adresse de livraison)
-- [Contacts](##contacts)
-- [Statistiques](##statistiques)
-- [Webcam](##webcam)
-- [Mailing SMS](##mailing SMS)
+- [Nouveau](#nouveau)
+- [Modifier](#modifier)
+- [Imprimer](#imprimer)
+- [Bloc-Notes](#bloc-notes)
+- [Historique](#historique)
+- [Adresse de livraison](#adresse-de-livraison)
+- [Contacts](#contacts)
+- [Statistiques](#statistiques)
+- [Webcam](#webcam)
+- [Mailing SMS](#mailing-sms)
 
 Un double-clic sur un des clients donne accès à sa [Fiche Client](##fiche client).
 
@@ -124,7 +124,7 @@ Un clic sur le bouton  _Imprimer BDC_ nous permet de choisir les dates de dépar
 
 ## Bloc-Notes
 
-L'outil _Bloc-Notes_ donne directement accès au bloc-notes de la [Fiche Client](##fiche client).
+L'outil _Bloc-Notes_ donne directement accès au bloc-notes de la [Fiche Client](#fiche-client).
 
 ![image-20250602161046878](img/image-20250602161046878.png)
 
@@ -170,7 +170,7 @@ Pour ajouter un contact relié à un client, il faut passer par l'onglet contact
 
 
 
-##Statistiques
+## Statistiques
 
 **A Completer**
 
@@ -191,6 +191,22 @@ Permet le lancement d'une campagne SMS pour les clients possèdant un numéro de
 ![image-20250602163937911](img/image-20250602163937911.png)
 
  
+
+## Supprimer
+
+Le clic-droit sur un client nous propose entre autre de le _supprimer_. Un avertissement apparaît. En effet, un client peut être impliqué dans un ou plusieurs processus en cours, tels qu'une facturation ou une livraison, et sa suppression peut entraîner des disfonctonnements vis à vis de ces processus. Il est donc nécessaire de s'assurer que chaque processus impliquant ce client est terminé avant de le _supprimer_.
+
+
+
+## Import/Export
+
+L'option d'import export permet l'importation de fichiers servant à compléter la fic he d'un client ainsi que l'exportation des caractéristiques d'un client sous différents formats . **A compléter**
+
+
+
+## Relevé de comptes
+
+
 
 
 
