@@ -1,6 +1,6 @@
 # Clients
 
-Cette section présente et explique le fonctionnement ainsi que les différentes fonctionnalités de l'outil de gestion des clients accessibles depuis le menu de base via ce bouton : ![](../../documentation/docs/img/CaptureClient1.PNG)
+Cette section présente et explique le fonctionnement ainsi que les différentes fonctionnalités de l'outil de gestion des clients accessibles depuis le menu de base via ce bouton : ![](img/encadreClient.png)
 
 ## Liste des clients
 
