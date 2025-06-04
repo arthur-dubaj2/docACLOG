@@ -1,8 +1,8 @@
-# Gestion des clients
+# Clients
 
-Cette section présente et explique le fonctionnement ainsi que les différentes fonctionnalités de l'outil de gestion des clients accessibles depuis le menu de base via ce bouton : ![](img/CaptureClient1.PNG)
+Cette section présente et explique le fonctionnement ainsi que les différentes fonctionnalités de l'outil de gestion des clients accessibles depuis le menu de base via ce bouton : ![](../../documentation/docs/img/CaptureClient1.PNG)
 
-## Liste des clients
+## Liste des clients
 
 A l'ouverture, le menu clients affiche un tableau listant les différents clients déjà enregistrés ainsi que leurs différentes caractéristiques.
 
@@ -38,23 +38,11 @@ Le menu est également muni de quelques filtres, situés au dessus du tableau :
 
 Les deux premiers filtres influencent sur les [types des clients](##Types) et le dernier sur son statut.
 
-## Nouveau
-
-L'ajout d'un nouveau client se fait via une liste de champs de saisie correspondant chacun à une caractéristique du dit client. 
-
-![Capture d’écran du 2025-06-02 14-45-28](img/CaptureClient3.PNG)
-
-Chacun de ces champs est explicite, la date d'anniversaire peut être sélectionnée via le calendrier pour éviter toute erreur de formatage :
-
-![Capture d’écran du 2025-06-02 14-45-28](img/Capture d’écran du 2025-06-02 14-45-28.png)
 
 
-
-Il est également possible de définir les différentes caractéristiques plus spécifiques définies dans la [Fiche Client](##fiche client).
-
+## Fiche Client
 
 
-## Fiche Client
 
 La fiche client présente toutes les caracéristiques définies lors de la création du client en premier plan.
 
@@ -71,7 +59,7 @@ En bas de l'interface, un certain nombre d'onglets s'offent à nous :
 - L'onglet _Carte fidélité_ permet d'activer une carte de fidélité liée au client : ![](img/Capture d’écran du 2025-06-02 15-27-21.png)
 - L'onglet _Infos_ n'offre pas d'interaction mais donne accès au chiffres d'affaire généré par ce client.
 - L'onglet _Historique_ donne accès à toutes les ventes/commandes impliquant le dit client.
-- L'onglet _Bloc-Notes_ joue le rôle de post it et mermet d'ajouter une annotation quelconque à la fiche.
+- L'onglet _Bloc-Notes_ joue le rôle de post-it et mermet d'ajouter une annotation quelconque à la fiche.
 - Enfin, l'onglet _Contact_ liste les différents moyens de [contacts](##contacts) du client et permet d'en ajouter.
 
 
@@ -170,10 +158,6 @@ Pour ajouter un contact relié à un client, il faut passer par l'onglet contact
 
 
 
-## Statistiques
-
-**A Completer**
-
 
 
 ## Webcam
@@ -195,30 +179,6 @@ Permet le lancement d'une campagne SMS pour les clients possèdant un numéro de
 ## Supprimer
 
 Le clic-droit sur un client nous propose entre autre de le _supprimer_. Un avertissement apparaît. En effet, un client peut être impliqué dans un ou plusieurs processus en cours, tels qu'une facturation ou une livraison, et sa suppression peut entraîner des disfonctonnements vis à vis de ces processus. Il est donc nécessaire de s'assurer que chaque processus impliquant ce client est terminé avant de le _supprimer_.
-
-
-
-## Import/Export
-
-L'option d'import export permet l'importation de fichiers servant à compléter la fic he d'un client ainsi que l'exportation des caractéristiques d'un client sous différents formats . **A compléter**
-
-
-
-## Relevé de comptes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

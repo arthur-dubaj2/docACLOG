@@ -3,5 +3,17 @@ theme:
   name: material
 nav:
   - Accueil: index.md
+  - Introduction : intro.md
+  - Installation : installation.md
+  - Interface du logiciel : interface.md
+  - Paramètrage initial : parametrage.md
   - Clients : clients.md
-  - Annexe : annexe.md
+  - Produits : produits.md
+  - Prestations : prestations.md
+  - Import/Export : importExport.md
+  - Collaborateur et sécurité utilisateur : collaborateursSecurite.md
+  - Utilisation quotidienne : utilisationQuoti.md
+  - Cloture de caisse : cloture.md
+  - Rapport et Statistiques : stats.md
+  - Gestion commerciale : gestion.md
+  - Stock et inventaire : stock.md
