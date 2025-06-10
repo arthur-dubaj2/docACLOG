@@ -8,11 +8,13 @@
       
       
       
+        <link rel="canonical" href="https://documentation-ac-log.com/gestion/">
       
-        <link rel="prev" href="../stats/">
+      
+        <link rel="prev" href="../chequeCadeaux/listeCheques/">
       
       
-        <link rel="next" href="../stock/">
+        <link rel="next" href="../fournisseurs/ficheFournisseur/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -42,6 +44,8 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="../style.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -174,7 +178,9 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="Documentation AC LOG" class="md-nav__button md-logo" aria-label="Documentation AC LOG" data-md-component="logo">
       
@@ -186,28 +192,6 @@
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Accueil
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
     
       
       
@@ -287,95 +271,7 @@
   
   
   <span class="md-ellipsis">
-    Paramètrage initial
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../clients/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Clients
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../produits/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Produits
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../prestations/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Prestations
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../importExport/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Import/Export
+    Paramétrage initial
     
   </span>
   
@@ -413,18 +309,94 @@
   
   
   
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Clients
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Clients
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../utilisationQuoti/" class="md-nav__link">
+      <a href="../client/ficheClient/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Utilisation quotidienne
+    Fiche Client
     
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../client/listeClients/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Liste Clients
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -435,18 +407,94 @@
   
   
   
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Produits
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Produits
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../cloture/" class="md-nav__link">
+      <a href="../produits/ficheProduits/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Cloture de caisse
+    Fiche Produit
     
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../produits/listeProduits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Liste Produits
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -457,18 +505,290 @@
   
   
   
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Prestations
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Prestations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../stats/" class="md-nav__link">
+      <a href="../prestations/fichePrestations/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Rapport et Statistiques
+    Fiche Prestation
     
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prestations/listePrestations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Liste Prestation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Forfaits
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Forfaits
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../forfaits/ficheForfait/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fiche Forfait
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../forfaits/listeForfaits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Liste Forfaits
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chèques Cadeaux
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Chèques Cadeaux
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chequeCadeaux/ficheCheques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fiche Chèque Cadeau
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chequeCadeaux/listeCheques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Liste Chèque Cadeau
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -539,9 +859,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#commandes-clients" class="md-nav__link">
+  <a href="#commandes" class="md-nav__link">
     <span class="md-ellipsis">
-      Commandes clients
+      Commandes
     </span>
   </a>
   
@@ -566,27 +886,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#commandes-fournisseurs" class="md-nav__link">
+  <a href="#reglements-en-attente" class="md-nav__link">
     <span class="md-ellipsis">
-      Commandes fournisseurs
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conversion-entre-documents" class="md-nav__link">
-    <span class="md-ellipsis">
-      Conversion entre documents
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#historique-client" class="md-nav__link">
-    <span class="md-ellipsis">
-      Historique client
+      Règlements en attente
     </span>
   </a>
   
@@ -596,6 +898,126 @@
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Fournisseurs
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            Fournisseurs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fournisseurs/ficheFournisseur/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fiche Fournisseur
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fournisseurs/listeFournisseurs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Liste Fournisseurs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cmdFournisseurs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Commandes Fournisseurs
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -622,101 +1044,254 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../caisse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Caisse
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Clôture de caisse
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Statistiques
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../importExport/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Import/Export
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../exportComptable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Export Comptable
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sauvRestauration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sauvegarde et restauration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../suppUtilisateur/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Support Utilisateur
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../adminFiscale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Administration fiscale
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../annexes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Annexes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modMetiers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Modules métiers spécifiques
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modComplem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Modules complémentaires
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
                 </div>
               </div>
             
-            
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#devis" class="md-nav__link">
-    <span class="md-ellipsis">
-      Devis
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#commandes-clients" class="md-nav__link">
-    <span class="md-ellipsis">
-      Commandes clients
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bons-de-livraison" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bons de livraison
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#factures-et-avoirs" class="md-nav__link">
-    <span class="md-ellipsis">
-      Factures et Avoirs
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#commandes-fournisseurs" class="md-nav__link">
-    <span class="md-ellipsis">
-      Commandes fournisseurs
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conversion-entre-documents" class="md-nav__link">
-    <span class="md-ellipsis">
-      Conversion entre documents
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#historique-client" class="md-nav__link">
-    <span class="md-ellipsis">
-      Historique client
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
             
           
           
@@ -730,63 +1305,85 @@
 <h1 id="gestion-commerciale">Gestion commerciale</h1>
 <h2 id="devis">Devis</h2>
 <p>Fiche Devis : </p>
-<h2 id="commandes-clients">Commandes clients</h2>
+<p><img alt="image-20250604144150503" src="../img/image-20250604144150503.png" /></p>
+<p>Un devis contient deux points d'informations principaux : </p>
+<ul>
+<li>
+<p><a href="clients.md">Client</a></p>
+<blockquote>
+<p>L'ajout d'un client à une commande peut se faire via son nom, par sa société ou par son code. Il est également possible de créer un nouveau client directement via la fiche commande <img alt="image-20250604144711878" src="../img/image-20250604144711878.png" />, ou d'en choisir un existant<img alt="image-20250604144652728" src="../img/image-20250604144652728.png" />.</p>
+</blockquote>
+</li>
+<li>
+<p><a href="">Produits / Prestations</a></p>
+</li>
+</ul>
+<blockquote>
+<p>Les produits s'ajoutent via la liste de produits existants <img alt="image-20250604144949399" src="../img/image-20250604144949399.png" /> ou via un scan du code-barres.</p>
+<p>L'outil crayon  <img alt="image-20250603112458622" src="../img/image-20250603112458622.png" /> permet d'ajouter un produit <em>à la main</em> au sein de la commande.</p>
+<p>On peut également supprimer un produit de la commande via le bouton <img alt="image-20250604145042284" src="../img/image-20250604145042284.png" />.</p>
+</blockquote>
+<p>Les différents renseignements restant sont explicites. Il est également possible d'ajouter des observations (visibles ou non <img alt="image-20250604145703079" src="../img/image-20250604145703079.png" />par le client) au devis.</p>
+<h2 id="commandes">Commandes</h2>
 <p>Fiche commande :</p>
-<p><img alt="image-20250603105510828" src="../../documentation/docs/img/image-20250603105510828.png" /></p>
+<p><img alt="image-20250603105510828" src="../img/image-20250603105510828.png" /></p>
 <p>Une commande contient trois points d'information:</p>
 <ul>
-<li><a href="../clients/">Client</a></li>
+<li><a href="clients.md">Client</a></li>
 </ul>
 <blockquote>
-<p>L'ajout d'un client à une commande peut se faire via son nom, par sa société ou par son code. Il est également possible de créer un nouveau client directement via la fiche commande, ou d'en chosir un existant</p>
+<p>L'ajout d'un client à une commande peut se faire via son nom, par sa société ou par son code. Il est également possible de créer un nouveau client directement via la fiche commande <img alt="image-20250604144711878" src="../img/image-20250604144711878.png" />, ou d'en choisir un existant<img alt="image-20250604144652728" src="../img/image-20250604144652728.png" />.</p>
 </blockquote>
 <ul>
-<li><a href="../clients/#adresse-de-livraison">Adresse de Livraison</a></li>
+<li><a href="clients.md#adresse-de-livraison">Adresse de Livraison</a></li>
 </ul>
 <blockquote>
-<p>L'adresse de livraison peut s'ajouter via la fiche de commande, on peut également sélectionner une adresse existante ou choisir comme adresse de livraison l'adresse associée au client.</p>
+<p>L'adresse de livraison peut s'ajouter via la fiche de commande, on peut également sélectionner une adresse existante <img alt="image-20250604145826593" src="../img/image-20250604145826593.png" />ou choisir comme adresse de livraison l'adresse associée au client.</p>
 </blockquote>
 <ul>
 <li><a href="">Produits / Prestations</a></li>
 </ul>
 <blockquote>
-<p>Les produits s'ajoutent via la liste de produits existants ou via un scan du code-barres</p>
-<p>L'outil crayon  <img alt="image-20250603112458622" src="../../documentation/docs/img/image-20250603112458622.png" /> permet d'ajouter un produit <em>à la main</em> au sein de la commande.</p>
+<p>Les produits s'ajoutent via la liste de produits existants <img alt="image-20250604144949399" src="../img/image-20250604144949399.png" /> ou via un scan du code-barres.</p>
+<p>L'outil crayon  <img alt="" src="../img/image-20250603112458622.png" /> permet d'ajouter un produit <em>à la main</em> au sein de la commande.</p>
+<p>On peut également supprimer un produit de la commande via le bouton <img alt="image-20250604145042284" src="../img/image-20250604145042284.png" />.</p>
 </blockquote>
 <p>Les différents renseignements restants sont explicites, les types de commande étant définis par l'utilisateur.</p>
-<p>Enfin le bouton transférer <img alt="image-20250603112922121" src="../../documentation/docs/img/image-20250603112922121.png" />permet la transtion directe vers une <a href="#facture">facture</a> ou un <a href="#bon-de-livraison">bon de livraison</a>.</p>
-<p>Fiche de livraison complète :</p>
-<p><img alt="image-20250603113655622" src="../../documentation/docs/img/image-20250603113655622.png" /></p>
+<p>Le bouton <img alt="image-20250604150125607" src="../img/image-20250604150125607.png" /> permet d'ajouter des commentaires (visibles ou non par le client <img alt="image-20250604145703079" src="../img/image-20250604145703079.png" />) à la commande.</p>
+<p>Enfin le bouton transférer <img alt="image-20250603112922121" src="../img/image-20250603112922121.png" />permet la transtion directe vers une <a href="#facture">facture</a> ou un <a href="#bon-de-livraison">bon de livraison</a>.</p>
+<p>Fiche de commande complète :</p>
+<p><img alt="image-20250603113655622" src="../img/image-20250603113655622.png" /></p>
 <h2 id="bons-de-livraison">Bons de livraison</h2>
 <p>Un bon de livraison s'organise de la même manière qu'une commande, et dérive souvent directement de celle-ci.</p>
 <p>Une commande contient trois points d'information:</p>
 <ul>
-<li><a href="../clients/">Client</a></li>
+<li><a href="clients.md">Client</a></li>
 </ul>
 <blockquote>
-<p>L'ajout d'un client à un bon de livraison peut se faire via son nom, par sa codiété ou par son code. Il est également possible de créer un nouveau client directement via la fiche ou d'en chosir un existant</p>
+<p>L'ajout d'un client à une commande peut se faire via son nom, par sa société ou par son code. Il est également possible de créer un nouveau client directement via la fiche commande <img alt="image-20250604144711878" src="../img/image-20250604144711878.png" />, ou d'en choisir un existant<img alt="image-20250604144652728" src="../img/image-20250604144652728.png" />.</p>
 </blockquote>
 <ul>
-<li><a href="../clients/#adresse-de-livraison">Adresse de Livraison</a></li>
+<li><a href="clients.md#adresse-de-livraison">Adresse de Livraison</a></li>
 </ul>
 <blockquote>
-<p>L'adresse de livraison peut s'ajouter via la fiche, on peut également sélectionner une adresse existante ou choisir comme adresse de livraison l'adresse associée au client.</p>
+<p>L'adresse de livraison peut s'ajouter via la fiche de commande, on peut également sélectionner une adresse existante <img alt="image-20250604145826593" src="../img/image-20250604145826593.png" />ou choisir comme adresse de livraison l'adresse associée au client.</p>
 </blockquote>
 <ul>
 <li><a href="">Articles</a></li>
 </ul>
 <blockquote>
-<p>Les articles s'ajoutent via la liste de produits existants ou via un scan du code-barres</p>
-<p>L'outil crayon  <img alt="image-20250603112458622" src="../../documentation/docs/img/image-20250603112458622.png" /> permet d'ajouter un article <em>à la main</em> au sein de la commande.</p>
+<p>Les articles s'ajoutent via la liste de produits existants <img alt="image-20250604144949399" src="../img/image-20250604144949399.png" /> ou via un scan du code-barres.</p>
+<p>L'outil crayon  <img alt="image-20250603112458622" src="../img/image-20250603112458622.png" /> permet d'ajouter un produit <em>à la main</em> au sein de la commande.</p>
+<p>On peut également supprimer un produit de la commande via le bouton <img alt="image-20250604145042284" src="../img/image-20250604145042284.png" />.</p>
 </blockquote>
 <p>Les différents renseignements restants sont explicites, les modes de livraison étant définis par l'utilisateur. </p>
-<p>L'outil de recherche <img alt="image-20250603115017227" src="../../documentation/docs/img/image-20250603115017227.png" />permet de rechercher des produits via leur numéro de commande.</p>
+<p>L'outil de recherche <img alt="image-20250603115017227" src="../img/image-20250603115017227.png" />permet de rechercher des produits via leur numéro de commande.</p>
 <p>Bon de livraison transféré depuis la commande précédente :</p>
-<p><img alt="image-20250603115151164" src="../../documentation/docs/img/image-20250603115151164.png" /></p>
+<p><img alt="image-20250603115151164" src="../img/image-20250603115151164.png" /></p>
 <h2 id="factures-et-avoirs">Factures et Avoirs</h2>
-<h2 id="commandes-fournisseurs">Commandes fournisseurs</h2>
-<h2 id="conversion-entre-documents">Conversion entre documents</h2>
-<h2 id="historique-client">Historique client</h2>
+<p>Une facture, comme un avoir, se construit de la même manière qu'un devis : </p>
+<p><img alt="fiche_facture" src="../img/image-20250604150551033.png" /> <img alt="fiche_avoir" src="../img/image-20250604150623589.png" /></p>
+<h2 id="reglements-en-attente">Règlements en attente</h2>
 
 
 
@@ -806,6 +1403,12 @@
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
         
       </main>
       
@@ -832,10 +1435,12 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.sections", "navigation.expand", "navigation.top", "content.tab.links", "toc.integrate"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
