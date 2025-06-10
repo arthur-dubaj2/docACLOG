@@ -6,23 +6,17 @@
 
 
 
-## Mouvement de stock
+## Entrée de stock
 
 
 
-## Inventaire complet
+## Sortie de stock
 
 
 
-## inventaire tournant
+## Inventaire
 
 
-
-## Ajustements manuels
-
-
-
-## Export / Impression des états
 
 
 

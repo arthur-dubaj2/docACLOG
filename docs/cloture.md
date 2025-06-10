@@ -2,19 +2,15 @@
 
 
 
-## Ticket Z
+## Procédure de clôture
 
 
 
-## Ticket X
+## Ticket Z et journal des ventes
 
 
 
-## Impression, archivage, export
-
-
-
-## Règles de Verouillage
+## Règles de sécurité et traçabilité
 
 
 

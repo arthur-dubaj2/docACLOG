@@ -28,7 +28,7 @@ Au lancement, le logciel présente l'interface suivante :
 
 
 
-## Logique d'utilisation
+## Logique d'utilisation générale du logiciel
 
 
 

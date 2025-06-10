@@ -6,11 +6,15 @@
 
 
 
-## Lancement du logiciel
+## Activation du logiciel
 
 
 
-## Mises à jour
+## Premier lancement du logiciel
+
+
+
+## Mises à jour du logiciel
 
 
 

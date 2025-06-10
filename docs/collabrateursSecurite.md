@@ -2,19 +2,15 @@
 
 
 
-## Création de collaborateurs
+## Liste des collaborateurs
 
 
 
-## Attribution de droits
+## Ajouter / modifier un collaborateur
 
 
 
-## Sélection utilisation à l'usage
-
-
-
-## Traçabilité des actions
+## Définir les droits d'accès
 
 
 

@@ -6,21 +6,17 @@
 
 
 
-## Modules inclus
-
-
-
-
-
-## Certifciation et obligations légales
-
-
-
 ## Environnements compatibles
 
 
 
-## Objectifs du manuel
+
+
+## Certification et obligations légales
+
+
+
+## Objectifs du manuel utilisateur
 
 
 

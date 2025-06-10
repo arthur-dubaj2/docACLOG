@@ -1,19 +1,67 @@
-site_name: Documentation AC LOG
+site_name: Documentation AC LO
+site_url: https://documentation-ac-log.com
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.tab.links
+    - toc.integrate
+  icon:
+    repo: fontawesome/brands/git-alt
+  # Ajout des polices
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Ajout des plugins Material
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+extra_css:
+  - style.css
+
 nav:
-  - Accueil: index.md
-  - Introduction : intro.md
-  - Installation : installation.md
-  - Interface du logiciel : interface.md
-  - Paramètrage initial : parametrage.md
-  - Clients : clients.md
-  - Produits : produits.md
-  - Prestations : prestations.md
-  - Import/Export : importExport.md
-  - Collaborateur et sécurité utilisateur : collabrateursSecurite.md
-  - Utilisation quotidienne : utilisationQuoti.md
-  - Cloture de caisse : cloture.md
-  - Rapport et Statistiques : stats.md
-  - Gestion commerciale : gestion.md
-  - Stock et inventaire : stock.md
+  - Introduction: intro.md
+  - Installation: installation.md
+  - Interface du logiciel: interface.md
+  - Paramétrage initial: parametrage.md
+  - Collaborateur et sécurité utilisateur: collabrateursSecurite.md
+  - Clients:
+      - Fiche Client: client/ficheClient.md
+      - Liste Clients: client/listeClients.md
+  - Produits:
+      - Fiche Produit: produits/ficheProduits.md
+      - Liste Produits: produits/listeProduits.md
+  - Prestations:
+      - Fiche Prestation: prestations/fichePrestations.md
+      - Liste Prestation: prestations/listePrestations.md
+  - Forfaits:
+      - Fiche Forfait: forfaits/ficheForfait.md
+      - Liste Forfaits: forfaits/listeForfaits.md
+  - Chèques Cadeaux:
+      - Fiche Chèque Cadeau: chequeCadeaux/ficheCheques.md
+      - Liste Chèque Cadeau: chequeCadeaux/listeCheques.md
+  - Gestion commerciale: gestion.md
+  - Fournisseurs:
+      - Fiche Fournisseur: fournisseurs/ficheFournisseur.md
+      - Liste Fournisseurs: fournisseurs/listeFournisseurs.md
+  - Commandes Fournisseurs: cmdFournisseurs.md
+  - Stock et inventaire: stock.md
+  - Caisse: caisse.md
+  - Clôture de caisse: cloture.md
+  - Statistiques: stats.md
+  - Import/Export: importExport.md
+  - Export Comptable: exportComptable.md
+  - Sauvegarde et restauration: sauvRestauration.md
+  - Support Utilisateur: suppUtilisateur.md
+  - Administration fiscale: adminFiscale.md
+  - Annexes: annexes.md
+  - Modules métiers spécifiques: modMetiers.md
+  - Modules complémentaires: modComplem.md
+
