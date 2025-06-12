@@ -10,9 +10,10 @@ Fiche Devis :
 
 Un devis contient deux points d'informations principaux : 
 
-- [Client](clients.md)
+- [Client](client/ficheClient.md)
+  
   > L'ajout d'un client à une commande peut se faire via son nom, par sa société ou par son code. Il est également possible de créer un nouveau client directement via la fiche commande ![image-20250604144711878](img/image-20250604144711878.png), ou d'en choisir un existant![image-20250604144652728](img/image-20250604144652728.png).
-
+  
 - [Produits / Prestations]()
 
   > Les produits s'ajoutent via la liste de produits existants ![image-20250604144949399](img/image-20250604144949399.png) ou via un scan du code-barres.
@@ -23,15 +24,15 @@ Un devis contient deux points d'informations principaux :
 
 
 
-Les différents renseignements restant sont explicites. Il est également possible d'ajouter des observations (visibles ou non ![image-20250604145703079](img/image-20250604145703079.png)par le client) au devis.
+Les différents renseignements restant sont **explicites**. Il est également possible d'ajouter des **observations** (visibles ou non ![image-20250604145703079](img/image-20250604145703079.png)par le client) au devis.
 
-Une fois un ou plusieurs devis créées. L'utilisateur peut accéder à la liste des devis :
+Une fois un ou plusieurs devis créées. L'utilisateur peut accéder à la **liste des devis** :
 
 ![image-20250611101103261](img/image-20250611101103261.png)
 
 
 
-Depuis cette liste, l'utilisateur peut interagir avec les devis déjà créés. Le bouton modifier ![image-20250611101251808](img/image-20250611101251808.png) donne accès à la fiche du devis . Le bouton dupliquer ![image-20250611101422072](img/image-20250611101422072.png)permet de créer une copie du devis sélectionné et de l'ajouter à la liste. Le bouton Imprimer ![image-20250611101457475](img/image-20250611101457475.png) permet la génération d'une version pdf du devis, destinée à l'impression. Le bloc notes ![image-20250611101757298](img/image-20250611101757298.png) permet d'ajouter des commentaires, reliés à un devis. Le bouton e-mail ![image-20250611101935580](img/image-20250611101935580.png) permet d'envoyer la version pdf du devis par mail.
+Depuis cette liste, l'utilisateur peut interagir avec les devis déjà créés. Le bouton modifier ![image-20250611101251808](img/image-20250611101251808.png) donne accès à la **fiche du devis** . Le bouton dupliquer ![image-20250611101422072](img/image-20250611101422072.png)permet de créer une **copie** du devis sélectionné et de l'ajouter à la liste. Le bouton Imprimer ![image-20250611101457475](img/image-20250611101457475.png) permet la génération d'une **version pdf**du devis, destinée à l'impression. Le bloc notes ![image-20250611101757298](img/image-20250611101757298.png) permet d'ajouter des **commentaires**, reliés à un devis. Le bouton e-mail ![image-20250611101935580](img/image-20250611101935580.png) permet d'envoyer la version pdf du devis par **mail**.
 
 
 
@@ -77,11 +78,11 @@ Fiche de commande complète :
 
 
 
-La liste des commandes offre les mêmes fonctionnalités que la liste des [Devis](#devis). La seule option suppplémentaire est la création d'un acompte ![image-20250611102333377](img/image-20250611102333377.png) permettant de définir un montant, un mode de règlement, ainsi qu'un commentaire. Pour pouvoir enregister l'acompte, la case _Acquitté_ doit être cochée. Une fois l'acompte enregistré, son montant est soustrait du _Solde Restant à payer_ dans la fiche commande.
+La liste des commandes offre les mêmes fonctionnalités que la liste des [Devis](#devis). La seule option suppplémentaire est la création d'un acompte ![image-20250611102333377](img/image-20250611102333377.png) permettant de définir un montant, un mode de règlement, ainsi qu'un commentaire. Pour pouvoir enregister l'acompte, la case _Acquitté_ doit être cochée. Une fois l'acompte enregistré, son montant est soustrait du _Solde Restant à payer_ dans la **fiche commande**.
 
 ![image-20250611102805070](img/image-20250611102805070.png)
 
-La poubelle ![image-20250611102952230](img/image-20250611102952230.png)permet la suppression d'un acompte déjà enregistré.
+La poubelle ![image-20250611102952230](img/image-20250611102952230.png) permet la **suppression** d'un acompte déjà enregistré.
 
 ## Bons de livraison
 
@@ -197,7 +198,7 @@ Une liste d'outils servant à relancer les clients concernés par ces règlement
 
 - On peut effectuer une relance par e-mail via le bouton ![image-20250611115034872](img/image-20250611115034872.png). Cette option génère un mail possèdant en pièce jointe une facture ou une lettre de relance, au choix.
 
-- La relance SMS ![image-20250611115510526](img/image-20250611115510526.png)permet de sélectionner les clients à relancer et de les joindre via leur téléphone portable.
+- La relance SMS ![image-20250611115510526](img/image-20250611115510526.png) permet de sélectionner les clients à relancer et de les joindre via leur téléphone portable.
 
 
 

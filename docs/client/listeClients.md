@@ -1,6 +1,6 @@
 # Clients
 
-Cette section présente et explique le fonctionnement ainsi que les différentes fonctionnalités de l'outil de gestion des clients accessibles depuis le menu de base via ce bouton : ![](img/encadreClient.png)
+Cette section présente et explique le fonctionnement ainsi que les différentes fonctionnalités de l'outil de gestion des clients accessibles depuis le menu de base via ce bouton : ![](../img/encadreClient.png)
 
 ## Liste des clients
 
@@ -8,7 +8,7 @@ A l'ouverture, le menu clients affiche un tableau listant les différents client
 
 
 
-![](img/CaptureClient2-1748866426556-1.PNG)
+![](../img/CaptureClient2-1748866426556-1.PNG)
 
 La page ainsi ouverte donne accès à une liste de fonctionnalités plus ou moins complexes :
 
@@ -27,7 +27,7 @@ Un double-clic sur un des clients donne accès à sa [Fiche Client](#fiche-clien
 
 Le menu est également muni de quelques filtres, situés au dessus du tableau :
 
-![Capture d’écran du 2025-06-02 14-32-22](img/Capture d’écran du 2025-06-02 14-32-22.png)
+![Capture d’écran du 2025-06-02 14-32-22](../img/Capture d’écran du 2025-06-02 14-32-22.png)
 
 Les deux premiers filtres influencent sur les [types des clients](##Types) et le dernier sur son statut.
 

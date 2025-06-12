@@ -1,12 +1,11 @@
-site_name: Documentation AC LOG
+site_name: Manuel Utilisateur AC LOG
 site_url: https://arthur-dubaj2.github.io/docACLOG/
 theme:
   name: material
   features:
     - navigation.instant
     - navigation.instant.progress
-    - navigation.sections
-    - navigation.expand
+    
     - navigation.top
     - content.tab.links
     - toc.integrate
@@ -27,7 +26,7 @@ extra_css:
   - style.css
 
 nav:
-  - Introduction: intro.md
+  - Introduction: index.md
   - Installation: installation.md
   - Interface du logiciel: interface.md
   - Paramétrage initial: parametrage.md
