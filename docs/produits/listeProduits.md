@@ -10,6 +10,12 @@ En haut à droite, en violet, l'interface nous indique la quantité de produits 
 
 ![Capture d’écran du 2025-06-11 15-45-03](../img/Capture d’écran du 2025-06-11 15-45-03.png)
 
+
+
+![image_loupe](../img/Capture d’écran du 2025-06-13 11-31-27.png)  L'outil **loupe** permet de rechercher , colonne par colonne, une valeur au sein de la table.
+
+
+
 Les champs en haut du tableau nous permettent de **filtrer** l'affiche des produits en fonction des caractéristiques _Type, Famille, Sous-famille et Marque_ définies dans la [Fiche Produit](ficheProduits.md).
 
 
@@ -46,15 +52,15 @@ Le menu étiquettes permet de générer des étiquettes correspondant au produit
 
 ![image-20250611155918816](../img/image-20250611155918816.png)
 
-Le bouton ![image-20250611155936600](../img/image-20250611155936600.png) permet d'imprimer ces étiquettes sous forme de **planche**, en indiquant où est ce que l'impression doit commencer sur la planche.
+![image-20250611155936600](../img/image-20250611155936600.png) Ce bouton permet d'imprimer ces étiquettes sous forme de **planche**, en indiquant où est ce que l'impression doit commencer sur la planche.
 
 
 
-Le bouton ![image-20250611160030935](../img/image-20250611160030935.png) permet **A Compléter**.
+ ![image-20250611160030935](../img/image-20250611160030935.png) Ce bouton permet l'impression via une petite **imprimante à rouleau**.
 
 
 
-Le bouton ![image-20250611160106850](../img/image-20250611160106850.png) permet de **quitter** le menu.
+ ![image-20250611160106850](../img/image-20250611160106850.png) Ce bouton permet de **quitter** le menu.
 
 
 

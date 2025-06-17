@@ -2,10 +2,6 @@
 
 Cette section présente les différents aspects du menu principal et explique comment naviguer efficacement dans celui-ci.
 
-- [Accueil et navigation](#accueil-et-navigation)
-- [Présentation des icônes principales](#pres)
-- [Logique d'utilisation](#logique-d'utilisation)
-
 ## Accueil et navigation
 
 Au lancement, le logciel présente l'interface suivante : 

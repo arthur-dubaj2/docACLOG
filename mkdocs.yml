@@ -9,6 +9,7 @@ theme:
     - navigation.top
     - content.tab.links
     - toc.integrate
+  
   icon:
     repo: fontawesome/brands/git-alt
   # Ajout des polices
@@ -32,27 +33,51 @@ nav:
   - Paramétrage initial: parametrage.md
   - Collaborateur et sécurité utilisateur: collabrateursSecurite.md
   - Clients:
-      - Fiche Client: client/ficheClient.md
       - Liste Clients: client/listeClients.md
+      - Fiche Client: client/ficheClient.md
+      
   - Produits:
-      - Fiche Produit: produits/ficheProduits.md
       - Liste Produits: produits/listeProduits.md
+      - Fiche Produit: produits/ficheProduits.md
+      
   - Prestations:
-      - Fiche Prestation: prestations/fichePrestations.md
       - Liste Prestation: prestations/listePrestations.md
+      - Fiche Prestation: prestations/fichePrestations.md
   - Forfaits:
-      - Fiche Forfait: forfaits/ficheForfait.md
       - Liste Forfaits: forfaits/listeForfaits.md
+      - Fiche Forfait: forfaits/ficheForfait.md
+      
   - Chèques Cadeaux:
-      - Fiche Chèque Cadeau: chequeCadeaux/ficheCheques.md
       - Liste Chèque Cadeau: chequeCadeaux/listeCheques.md
-  - Gestion commerciale: gestion.md
+      - Fiche Chèque Cadeau: chequeCadeaux/ficheCheques.md
+      
   - Fournisseurs:
-      - Fiche Fournisseur: fournisseurs/ficheFournisseur.md
       - Liste Fournisseurs: fournisseurs/listeFournisseurs.md
-  - Commandes Fournisseurs: cmdFournisseurs.md
-  - Stock et inventaire: stock.md
-  - Caisse: caisse.md
+      - Fiche Fournisseur: fournisseurs/ficheFournisseur.md
+      
+  - Commandes Fournisseurs:
+      - Liste Commande Fournisseur : cmdFournisseurs/listeCmdFour.md
+      - Fiche Commande Fournisseur : cmdFournisseurs/ficheCmdFour.md
+   
+
+  - Gestion commerciale:
+      - Devis: gestion/devis.md
+      - Factures: gestion/facture.md
+      - Bons de livraison: gestion/bdl.md
+      - Avoirs: gestion/avoir.md
+      - Commandes clients: gestion/commande.md
+      - Règlements en attente: gestion/reglAtt.md
+  - Stock:
+      - Etat du stock : stock/etatStock.md
+      - Entree de stock : stock/entreeStock.md
+      - Sortie de stock : stock/sortieStock.md
+  - Caisse:
+      - Interface de Caisse : caisse/interfaceCaisse.md
+      - Enregistrement d'une vente : caisse/enregVente.md
+      - Modes de Paiement : caisse/modePaiement.md
+      - Gestion des Tickets: caisse/gestionTickets.md
+      - Remises et Promotions : caisse/remises.md
+      - Gestion des avoirs et remmboursements : caisse/remboursements.md
   - Clôture de caisse: cloture.md
   - Statistiques: stats.md
   - Import/Export: importExport.md
