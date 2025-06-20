@@ -96,7 +96,7 @@ Le bouton historique donne accès à un menu déroulant permettant de choisir le
 
 - Historique des [Factures](../gestion/facture.md)/[Avoirs](../gestion/avoir.md)
 
-- Historique des [Cheque-cadeaux](../chequeCadeaux/ficheCheque.md)
+- Historique des [Cheque-cadeaux](../chequeCadeaux/ficheCheques.md)
 
 - Historique des [Abonnements]()
 

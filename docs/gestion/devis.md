@@ -14,7 +14,7 @@
 
 Un devis contient deux points d'informations principaux : 
 
-- [Client](../client/ficheClients.md)
+- [Client](../client/ficheClient.md)
   
   > L'ajout d'un client à une commande peut se faire via son nom, par sa société ou par son code. Il est également possible de créer un nouveau client directement via la fiche commande ![image-20250604144711878](../img/image-20250604144711878.png)  , ou d'en choisir un existant  ![image-20250604144652728](../img/image-20250604144652728.png).
   

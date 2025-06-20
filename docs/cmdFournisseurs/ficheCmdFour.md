@@ -10,7 +10,7 @@ La fiche associée à une commande founissuer contient toutes ses caractéristiq
 
 Une commande fournisseur contient deux points d'information:
 
-- > [Fournisseur](../fournisseurs/ficheFournisseurs.md)
+- > [Fournisseur](../fournisseurs/ficheFournisseur.md)
   >
   > L'ajout d'un fournisseur à la commande peut se faire via les fournisseurs déjà enregistrés.
   >
@@ -36,7 +36,7 @@ Les différents renseignements restants sont explicites.
 
 
 
-Le logiciel propose aussi de décider de répercuter ou non la commande sur les [Produits](../produits/ficheProduits.md) ainsi que sur les [Fournisseurs](../fournisseurs/ficheFournisseurs.md).
+Le logiciel propose aussi de décider de répercuter ou non la commande sur les [Produits](../produits/ficheProduits.md) ainsi que sur les [Fournisseurs](../fournisseurs/ficheFournisseur.md).
 
 Lors de la validation d'une commande fournisseur, le logiciel nous propose de _modifier les fiches produits_,  ou de ne pas le faire. :
 

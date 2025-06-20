@@ -30,13 +30,13 @@ Au lancement, le logciel présente l'interface suivante :
 
 ![image-20250611141545323](img/image-20250611141545323.png)  : Conduit vers le menu servant à la [clôture de caisse](cloture.md)
 
-![image-20250611141643916](img/image-20250611141643916.png)  : Conduit vers le menu de [Gestion commerciale](gestion.md)
+![image-20250611141643916](img/image-20250611141643916.png)  : Conduit vers le menu de [Gestion commerciale](gestion/devis.md)
 
-![image-20250611141942504](img/image-20250611141942504.png) : Conduit vers le menu de réassort, celui des [fournisseurs](fournisseurs/ficheFournisseur.md) et celui des [commandes aux fournisseurs](cmdFournisseurs.md)
+![image-20250611141942504](img/image-20250611141942504.png) : Conduit vers le menu de réassort, celui des [fournisseurs](fournisseurs/ficheFournisseur.md) et celui des [commandes aux fournisseurs](cmdFournisseurs/listeCmdFour.md)
 
 
 
-![image-20250611142441464](img/image-20250611142441464.png)  : Conduit vers le menu de gestion des [stocks](stock.md)
+![image-20250611142441464](img/image-20250611142441464.png)  : Conduit vers le menu de gestion des [stocks](stock/etatStock.md)
 
 
 

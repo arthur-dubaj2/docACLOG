@@ -14,7 +14,7 @@ L'interface nous offre la possibilité de définir une **famille** de produits (
 
 
 
-![image-20250611150535590](../img/image-20250611150535590.png)Le bouton _commander_ permet de [commander](cmdFournisseurs.md) ce produit auprès d'un fournisseur.
+![image-20250611150535590](../img/image-20250611150535590.png)Le bouton _commander_ permet de [commander](../cmdFournisseurs/listeCmdFour.md) ce produit auprès d'un fournisseur.
 
 
 
@@ -30,9 +30,9 @@ Au bas de la fiche, un certain nombre d'**onglets** s'offrent à l'utilisateur :
 
 - l'onglet _Fournisseur_ permet de relier le produit directement à un [Fournisseur](../fournisseurs/ficheFournisseur.md) et de spécifier les modalités de vente de celui-ci.
 
-- l'onglet _Stock_ permet de gérer les informations reliées au [Stock](../stock.md), les Qté Mini et Maxi mettant en place des **seuils** bloquant certaines interactions via d'autres menus (la vente d'un produit en dessous du stock minimal par exemple)
+- l'onglet _Stock_ permet de gérer les informations reliées au [Stock](../stock/etatStock.md), les Qté Mini et Maxi mettant en place des **seuils** bloquant certaines interactions via d'autres menus (la vente d'un produit en dessous du stock minimal par exemple)
 
-- L'onglet _Multi-Tarifs_ permet de visualiser et de modifier les tarids des plusieurs **catégories tarifaires** définies dans l'outil **configurer** depuis l'[interface](../interace.md), sélectionnables par la suite depuis la [caisse](../caisse.md) lors d'une vente. 
+- L'onglet _Multi-Tarifs_ permet de visualiser et de modifier les tarids des plusieurs **catégories tarifaires** définies dans l'outil **configurer** depuis l'[interface](../interface.md), sélectionnables par la suite depuis la [caisse](../caisse.md) lors d'une vente. 
 
    ![image-20250611151548317](../img/image-20250611151548317.png) Ce boutonpermet l'impression d'une fiche regroupant ces **catégories tarifaires**. 
 
@@ -42,7 +42,7 @@ Au bas de la fiche, un certain nombre d'**onglets** s'offrent à l'utilisateur :
 
 - L'onglet _Comptabilité_ permet de définir les différents codes comptables du produit.
 
-- L'onglet _Historique_ nous donne accès à la liste de toutes les entrées/sorties du produit dans le [stock](../stock.md).
+- L'onglet _Historique_ nous donne accès à la liste de toutes les entrées/sorties du produit dans le [stock](../stock/etatStock.md).
 
 - L'onglet _Code-barre_ nous donne accès à la visualisation du **code-barres** de ce produit.
 

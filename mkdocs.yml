@@ -27,7 +27,7 @@ extra_css:
   - style.css
 
 nav:
-  - Introduction: index.md
+  - Introduction: introduction.md
   - Installation: installation.md
   - Interface du logiciel: interface.md
   - Paramétrage initial: parametrage.md
@@ -76,8 +76,8 @@ nav:
       - Enregistrement d'une vente : caisse/enregVente.md
       - Modes de Paiement : caisse/modePaiement.md
       - Gestion des Tickets: caisse/gestionTickets.md
-      - Remises et Promotions : caisse/remises.md
-      - Gestion des avoirs et remmboursements : caisse/remboursements.md
+      - Acomptes et Commandes : caisse/acompteCommande.md
+      - Gestion des avoirs et remboursements : caisse/remboursements.md
   - Clôture de caisse: cloture.md
   - Statistiques: stats.md
   - Import/Export: importExport.md

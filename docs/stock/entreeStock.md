@@ -22,7 +22,7 @@ Le **N°BL** permet d'associer un [Bon de Livraison](../gestion/bdl.md) à l'ent
 
 Une entrée de stock contient deux points d'informations importants.
 
-- > [Fournisseur](../fournisseurs/ficheFournisseurs.md)
+- > [Fournisseur](../fournisseurs/ficheFournisseur.md)
   >
   > L'ajout d'un fournisseur à la commande peut se faire via les fournisseurs déjà enregistrés.
   >
